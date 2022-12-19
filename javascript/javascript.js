@@ -1,3 +1,4 @@
+//menu hamburguer
 const btnMobile = document.getElementById('btn-mobile')
 
 function clickMenu(event){
@@ -15,3 +16,20 @@ function clickMenu(event){
 
 btnMobile.addEventListener('click', clickMenu)
 btnMobile.addEventListener('touchstart', clickMenu)
+
+
+//carrossel de imagens
+let count = 1;
+document.getElementById("radio1").checked = true;
+
+setInterval(function(){
+    nextImage();
+}, 5000)
+
+function nextImage(){
+    count++
+    if(count>4){
+        count = 1
+    }
+    document.getElementById("radio"+count).checked = true;
+}

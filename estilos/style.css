@@ -39,7 +39,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #e7e7e7;
+    background: #ffffff;
 }
 
 /* cofiguração nav e button */
@@ -55,7 +55,7 @@ header{
     width: 100%;
     top: 159px;
     right: 0px;
-    background: #e7e7e7;
+    background: #f5f5f5;
     z-index: 10000;
     height: 0px;
     visibility: hidden;
@@ -164,6 +164,7 @@ main{
 .slide{
     width: 25%;
     position: relative;
+    transition: 1.5s;
 }
 
 .slide img{
@@ -209,4 +210,41 @@ main{
 #radio4:checked ~ .first{
      margin-left: -75%;
 }
+
+.navigation-auto div{
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:Last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto #auto-btn1{
+    background-color: white
+}
+
+#radio2:checked ~ .navigation-auto #auto-btn2{
+    background-color: white
+}
+
+#radio3:checked ~ .navigation-auto #auto-btn3{
+    background-color: white
+}
+
+#radio4:checked ~ .navigation-auto #auto-btn4{
+    background-color: white
+}
+
 
