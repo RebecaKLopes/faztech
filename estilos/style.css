@@ -146,14 +146,14 @@ main{
 /* carrossel de imagens*/
 .slider{
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 750px;
+    height: 250px;
     overflow: hidden;
 }
 
 .slides{
     width: 400%;
-    height: 400px;
+    height: 260px;
     display: flex;
 }
 
@@ -173,7 +173,7 @@ main{
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 550px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -188,7 +188,7 @@ main{
 }
 
 .manual-btn:not(:Last-child){
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 .manual-btn:hover{
@@ -221,14 +221,14 @@ main{
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 360px;
+    width: 550px;
+    margin-top: 220px;
     display: flex;
     justify-content: center;
 }
 
 .navigation-auto div:not(:Last-child){
-    margin-right: 40px;
+    margin-right: 25px;
 }
 
 #radio1:checked ~ .navigation-auto #auto-btn1{
