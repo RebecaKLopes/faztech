@@ -146,8 +146,8 @@ main{
 /* carrossel de imagens*/
 .slider{
     margin: 0 auto;
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
     overflow: hidden;
 }
 
@@ -173,14 +173,14 @@ main{
 
 .manual-navigation{
     position: absolute;
-    width: 550px;
-    margin-top: -40px;
+    width: 100%;
+    margin-top: -85px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn{
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -212,7 +212,7 @@ main{
 }
 
 .navigation-auto div{
-    border: 2px solid green;
+    border: 2px solid rgb(51, 255, 0);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -221,8 +221,8 @@ main{
 
 .navigation-auto{
     position: absolute;
-    width: 550px;
-    margin-top: 220px;
+    width: 100%;
+    margin-top: 175px;
     display: flex;
     justify-content: center;
 }

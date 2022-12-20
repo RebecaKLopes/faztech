@@ -59,24 +59,25 @@
     /* carrossel de imagens*/
     .slider{
         margin: 0 auto;
-        width: 1200px;
+        width: 80%;
         height: 400px;
         overflow: hidden;
     }
 
     .slides{
-        width: 600%;
+        width: 400%;
         height: 400px;
         display: flex;
     }
 
     .slide img{
         width: 1200px;
+        align-items: center;
     }
 
     .manual-navigation{
         position: absolute;
-        width: 950px;
+        width: 80%;
         margin-top: -40px;
         display: flex;
         justify-content: center;
@@ -100,7 +101,7 @@
 
     .navigation-auto{
         position: absolute;
-        width: 950px;
+        width: 80%;
         margin-top: 360px;
         display: flex;
         justify-content: center;
