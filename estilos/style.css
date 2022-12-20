@@ -146,8 +146,8 @@ main{
 /* carrossel de imagens*/
 .slider{
     margin: 0 auto;
-    width: 750px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
     overflow: hidden;
 }
 
