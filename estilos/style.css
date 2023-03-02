@@ -248,3 +248,73 @@ main{
 }
 
 
+/*CHAMADA 1*/
+
+.chamada-1{
+    margin: 50px 0px 50px 0px;
+}
+
+.chamada-1 span{
+    color: #0C8E36;
+}
+
+.chamada-1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+iframe{
+    margin: 50px 0px 50px 0px;
+}
+
+
+/*Engloba todos os h1*/
+.titulo-chamada{
+    font-size: 28px;
+    line-height: 50px;
+    text-align: start;
+    font-family: Merriweather , serif;
+    text-align: center;
+}
+
+
+/*CHAMADA 1*/
+
+.chamada-cursos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card-curso{
+    max-width: 100vw;
+    margin: 50px 0px 30px 0px;
+}
+
+.card-curso img{
+    max-width: 500px;
+    border-radius: 8px;
+    margin: 20px 0px;
+}
+
+.card-curso a{
+    background: #0C8E36;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+
+
+
+/*Diferenciais*/
+
+.container-diferenciais{
+    margin: 50px 0px 30px 0px;
+}

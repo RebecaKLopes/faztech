@@ -7,14 +7,12 @@
     <title>faztech - Cursos profissionalizantes</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div id="contato">
-            <i class="material-icons" id="iconTel">phone</i>
-            <h1> +55 43 3152.0044</h1>
-        </div>
         <div id="container">
             <img src="./imagens/logo_512px.png" alt="Logo faztech" id="logo">
             <nav id="nav">
@@ -32,7 +30,9 @@
             </nav>
         </div>
     </header>
-    <main>
+
+
+    <main class="container-main">
         <article>
             <div class="slider">
                 <div class="slides">
@@ -78,72 +78,104 @@
                 
             </div>
         </article>
-        <article id="metodo">
-            <section>
-                <h1>Metodologia</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam accusamus, modi eius distinctio optio eum perspiciatis quidem in laudantium dolorum, aspernatur nam atque? Ipsum praesentium totam ab nisi a. Provident!</p>
-            </section>
-        </article>
-        <article id="objetivos">
-            <section id="missao">
-                <h1>Nossa missão</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod facilis distinctio aspernatur cum, suscipit perferendis, accusamus nihil perspiciatis ullam temporibus</p>
-            </section>
-            <section id="visao">
-                <h1>Nossa visão</h1>
-                <p>Ser uma instituição reconhecida pela excelência e inovação na área educacional, Tornando-se escola referência na área profissionalizante mediando o acesso e integração ao mercado de trabalho</p>
-            </section>
-            <section id="valores">
-                <h1>Nossos valores</h1>
-                <p>Ética, comprometimento, excelência, e responsabilidade.</p>
-            </section>
-        </article>
-        <article>
-            <section id="chamadas">
-                <div class="chamada">
-                    <h1>Venha conhecer nossos cursos!</h1>
-                    <p>O mercado de trabalho está cada vez mais seleto à procura de profissionais qualificados. Com os cursos da Faztech você sai preparado para atuar no mercado de trabalho.</p>
-                </div>
-                <div class="chamada"> 
-                    <h1>Mercado de trabalho</h1>
-                    <p>Segundo pesquisas, o mercado de trabalho enfrenta filas de desemprego, mas não é por falta de vagas e sim QUALIFICAÇÃO. Isso mesmo, a maior parte de todas as vagas não preenchidas é pela escassez de profissionais qualificados! Há na verdade, um desencontro entre o que o que a indústria procura e o trabalhador que quer a vaga. A única maneira de contornar esta situação é voltando para a sala de aula. Não vire estatística, aproveite nossos cursos e saia preparado para entrar no mercado de trabalho</p>
-                </div>
-                <div id="matricule-se">
-                    <h1>Matricule-se Já!</h1>
-                    <p> A chance de se tornar um profissional de sucesso está aqui!</p>
-                    <img src="imagens/info01.jpg" style="max-width: 300px;">
-                </div>
-            </section>
-        </article>
+        
+        <section class="chamada-1">
+            <h1 class="titulo-chamada">Sua carreira de <span>Sucesso</span> começa <span>aqui!</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quae corrupti consequatur fugit nisi, amet quas minima sapiente asperiores reiciendis, esse ipsum, dolor officiis totam aliquid quisquam soluta rerum libero.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/459DlZcYvQs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
+        <section class="chamada-cursos">
+            <h1 class="titulo-chamada">Venha conhecer nossos cursos</h1>
+            <div class="card-curso">
+                <h2>Curso de bla bla</h2>
+                <img src="./imagens/curso-ar.jpg" alt="Curso de Ar Aondicionado">
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card-curso">
+                <h2>Curso de bla bla</h2>
+                <img src="./imagens/curso-cerca.jpg" alt="Curso de Cerca">
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card-curso">
+                <h2>Curso de bla bla</h2>
+                <img src="./imagens/curso-eletrecista.jpg" alt="Curso de Eletricista">
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card-curso">
+                <h2>Curso de bla bla</h2>
+                <img src="./imagens/curso-sistema.jpg" alt="Curso de Sistema">
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card-curso">
+                <h2>Curso de bla bla</h2>
+                <img src="./imagens/curso-sistema.jpg" alt="Curso de NR-10">
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card-curso">
+                <h2>Curso de bla bla</h2>
+                <img src="./imagens/curso-eletrecista.jpg" alt="Curso de macanico de moto">
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card-curso">
+                <h2>Curso de bla bla</h2>
+                <img src="./imagens/curso-eletrecista.jpg" alt="Curso de macanico de Carro">
+                <a href="#">Veja mais</a>
+            </div>
+        </section>
+
+        <section class="container-diferenciais">
+            <h1 class="titulo-chamada">Nossos Diferenciais</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi nostrum praesentium reiciendis. Nihil, laudantium repellat. Ut similique, vero accusamus esse iure beatae! Accusantium quasi corrupti enim excepturi libero labore nam!</p>
+            <div class="diferencial">
+                <span class="material-icons">done</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem et qui iusto minus aut aspernatur incidunt harum praesentium hic? Mollitia, consectetur aspernatur. Voluptas inventore corrupti ullam, non ut a!</p>
+            </div>
+            <div class="diferencial">
+                <span class="material-icons">done</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem et qui iusto minus aut aspernatur incidunt harum praesentium hic? Mollitia, consectetur aspernatur. Voluptas inventore corrupti ullam, non ut a!</p>
+            </div>
+            <div class="diferencial">
+                <span class="material-icons">done</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem et qui iusto minus aut aspernatur incidunt harum praesentium hic? Mollitia, consectetur aspernatur. Voluptas inventore corrupti ullam, non ut a!</p>
+            </div>
+            <div class="diferencial">
+                <span class="material-icons">done</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime autem et qui iusto minus aut aspernatur incidunt harum praesentium hic? Mollitia, consectetur aspernatur. Voluptas inventore corrupti ullam, non ut a!</p>
+            </div>
+            <div class="video-faztech">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/459DlZcYvQs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="container-case">
+            <h1 class="titulo-chamada">Dê um passo a mais na sua carreira</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa ab quis? Odit, exercitationem quidem neque ipsum, odio fugit tempore totam laborum debitis quae eius reiciendis necessitatibus sunt error rerum!</p>
+
+            <div class="video-faztech">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/459DlZcYvQs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="container-sobre">
+            <h1 class="titulo-chamada">Quem somos</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum eum necessitatibus ipsa impedit quasi velit omnis voluptatem maxime quia molestiae, qui animi in voluptatibus beatae sint, cupiditate facere! Officia, doloribus!</p>
+
+            <div class="video-faztech">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/459DlZcYvQs?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
     </main>
-    <footer>
-        <div id="redes-sociais">
-            <ul>
-                <li><a href="#">Whatsapp</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-            </ul>
-        </div>
-        <div id="cursos">
-            <h1>Nossos cursos</h1>
-            <ul>
-                <li><a href=""><p>Sistemas CFTV</p></a></li>
-                <li><a href=""><p>Eletricista Residencial e Predial</p></a></li>
-                <li><a href=""><p>NR-10</p></a></li>
-                <li><a href=""><p>Cerca Elétrica</p></a></li>
-                <li><a href=""><p>Instalação e Manutenção de Ar-condicionado SPLIT</p><a></li>
-            </ul>
-        </div>
-        <div id="contato">
-            <h1>Fale conosco</h1>
-            <p>email: Lorem ipsum</p>
-            <p>Telefone para contato: 12111-1111</p>
-        </div>
-        <div id="institucional">
-            <h1>Institucional</h1>
-            <p>CNPJ: 111111111</p>
-            <p>Endereço: Rua Flamingos 440 -Centro Arapongas, PR Brasil</p>
-            <p>mapa</p>
+
+    <footer class="container-footer">
+        <img src="./imagens/logo_512px.png" alt="logo faztech">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore architecto nemo neque</p>
+        <p>Todos os direitos reservados</p>
+        <div class="redes-sociais">
+            <img src="./imagens/icone02.jpg" alt="Whatsapp">
+            <img src="./imagens/icone02.jpg" alt="Instagram">
+            <img src="./imagens/icone02.jpg" alt="Facebook">
         </div>
     </footer>
 
